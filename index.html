@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jupiter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+</head>
+<style>
+   .button{
+    background-color: wheat;
+    border: none;
+    height: 30px;
+   }
+    
+    .ul{
+        margin-left: 55vw;
+    }
+    .ms-5{
+        margin-top: 20vh !important;
+    margin-left: 10vw !important;
+    }
+    .float-end{
+        margin-top: 16vh !important;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img src="data:image/jpeg;base64,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"
+                alt="" class="m-0 " height="70px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ul">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  >Contact</a>
+                    </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" > <button class="button">Free Advice</button></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+<div class="ms-5 float-start">
+    <h2 class="display-5 link-body-emphasis mb-1 fw-bold">Another blog post</h2>
+    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+    <p>This is some additional paragraph placeholder content. <br> It has been written to fill the available space and show <br>how a longer snippet of text affects the surrounding content. <br> We'll repeat it often to keep the demonstration flowing, so be on the lookout <br> for this exact same string of text.</p>
+
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Link with href
+        </a>
+        <button class="btn btn-light text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Contact me
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+      
+      
+      
+    </div>
+    <img class="img-thumbnail float-end" src="https://media.istockphoto.com/id/1872638922/photo/solar-system-planets-aligned-in-orbital-paths-with-sun.webp?a=1&b=1&s=612x612&w=0&k=20&c=-UUwAmCUBVJdy_X1qwU8IpCTIu7wKr2Lq-WZ4KtPU0w=" alt="">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+</body>
+
+</html>
